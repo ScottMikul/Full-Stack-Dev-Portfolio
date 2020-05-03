@@ -61,9 +61,4 @@ class Technologies extends React.Component{
 
     }
 }
-{/* <h3 class="text-center" >Familiar Technologies</h3>
-                <div class="row text-center mt-4">
-                    <div class="offset-3 col-3"><i class="devicon-amazonwebservices-original colored"><span class="d-none d-lg-inline">AWS</span></i></div>
-                    <div class="col-3"><i class="devicon-java-plain colored"><span class="d-none d-lg-inline">Java</span></i></div>
-                </div> */}
 export default Technologies;
