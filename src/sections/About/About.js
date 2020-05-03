@@ -10,7 +10,7 @@ class About extends React.Component{
                 <p className="float-left">
                     <img src={selfie} className="float-right rounded-circle" alt="portfolio-pic" height="180" width="215" />    
                     Hi! I'm Scotty I'm a full stack developer from Atlanta Georgia. I'm a high energy, good attitude kind of guy who
-                    enjoys comedy. I love coding, learning new things and overcomming challenges.
+                    enjoys comedy. I love coding, learning new things and overcoming challenges.
                     
                 </p>
                 

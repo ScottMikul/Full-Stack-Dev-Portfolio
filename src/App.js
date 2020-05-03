@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <TopNav />
-      <div className="container-fluid">
+     <div className="container-fluid">
         <div className="row">
 
         <SideNav></SideNav>
@@ -23,7 +23,7 @@ function App() {
         
 
         </div>
-      </div>
+      </div> 
     </div>
   );
 }

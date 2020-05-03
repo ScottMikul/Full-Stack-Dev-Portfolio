@@ -62,9 +62,9 @@ class Projects extends React.Component {
             if(project.demoLink){
                 return <Project title={project.title} repoLink={project.repoLink} demoLink={project.demoLink} imgUrl={project.imgUrl} description={project.description}> ></Project>
             }
-            else{
+
                 return <Project title={project.title} repoLink={project.repoLink}  imgUrl={project.imgUrl} description={project.description}></Project> 
-            } 
+
             
         })
         return (

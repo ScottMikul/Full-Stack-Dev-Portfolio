@@ -5,7 +5,7 @@ import React from "react";
 // thank you stack overflow.
 function importAll(r) {
     let images = {};
-    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    r.keys().map((item, index) => {return images[item.replace('./', '')] = r(item); });
     return images;
   }
 const images = importAll(require.context('./', false, /\.(png|jpe?g|svg|gif)$/))
@@ -25,7 +25,7 @@ function Project(props){
                 {props.title}
             </div>
             <div className="card-body">
-                <img width="100%" height="100%" src={images[props.imgUrl]}/>
+                <img width="100%" height="100%" src={images[props.imgUrl]} alt=""/>
             </div>
             <p className="card-text text-center">
                 {props.description}
