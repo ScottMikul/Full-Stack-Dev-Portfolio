@@ -1,24 +1,29 @@
 import React from 'react';
-import {TopNav, Container, SideNav, Main, Header, About,Technologies,Projects, Footer} from "./sections";
+import {TopNav, SideNav, Main, Header, About,Technologies,Projects, Footer} from "./sections";
 
 
 function App() {
   return (
     <div className="App">
       <TopNav />
-      {/* <Container>
+      <div className="container-fluid">
+        <div className="row">
+
         <SideNav></SideNav>
+
         <Main>
+
+
           <Header />
-          <About />
-          <Projects />
-          <Technologies />
-          <Footer />
+            <About />
+            <Projects />
+            <Technologies />         
+            <Footer />
         </Main>
+        
 
-
-      </Container> */}
-      <div className="jumbotron">Helloooo</div>
+        </div>
+      </div>
     </div>
   );
 }

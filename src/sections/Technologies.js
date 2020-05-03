@@ -1,33 +1,69 @@
 import React from "react"
-import NavItem from "../components/NavItem";
-
+import "../css/style.css"
+class technology {
+    constructor(iconClass,name){
+        this.iconClass=iconClass;
+        this.name=name;
+    }
+}
 class Technologies extends React.Component{
     render(){
+        const PrimaryTechNologiesData = [
+            new technology("devicon-git-plain colored","Github"),
+            new technology("devicon-nodejs-plain colored","NodeJs"),
+            new technology("devicon-javascript-plain colored","JavaScript"),
+            new technology("devicon-bootstrap-plain colored","BootStrap"),
+
+            new technology("devicon-css3-plain colored","CSS3"),
+            new technology("devicon-html5-plain colored","HTML5"),
+            new technology("devicon-react-original colored","React"),
+            new technology("devicon-express-original colored grey","Express"),
+
+            new technology("devicon-mongodb-plain colored","MongoDB"),
+            new technology("devicon-visualstudio-plain colored","VS Code"),
+            new technology("devicon-jquery-plain colored","jQuery"),
+            new technology("devicon-mysql-plain colored","MySQL"),
+
+            new technology("devicon-linux-plain colored","Linux"),
+            new technology("devicon-ssh-plain colored yellow","SSH"),
+            new technology("devicon-google-plain colored","Google Fu"),
+            new technology("devicon-sequelize-plain colored","Sequelize"),
+        ]
+        let PrimaryTechNologiesElems = PrimaryTechNologiesData.map((item, index)=>{
+            //every fourth element we want to add a bit of styling except on the last one
+                return <div className="col-3"><i className={item.iconClass}><span className="d-none d-lg-inline">{item.name}</span></i></div>
+        })
         return(
-            <div className="topnavbar">
-            <ul className="nav nav-pills mx-auto d-md-none flex-row mx-auto justify-content-center ">
-                {/* <li className="nav-item ">
-                    <a className="nav-link" href="#about">About</a>
-                </li> */}
-                <NavItem href="#about" linkName="About" />
-                {/* <li className="nav-item ">
-                    <a className="nav-link " href="#work">Recent Projects</a>
-                </li>
-                
-                <li className="nav-item">
-                    <a className="navbar-brand " href="#home" className="justify-content-center"><i className="fas fa-home"></i></a>
-                </li>
-                <li className="nav-item ">
-                    <a className="nav-link" href="#technologies">Technologies</a>
-                </li>
-                <li className="nav-item ">
-                    <a className="nav-link " href="#contact">Contact</a>
-                </li> */}
-            </ul>
-        </div>
+            <div>
+                <h3 className="text-center mt-3" id="technologies">Primary Technologies</h3>
+                <div className= "large-icons">
+                    <div className="row text-center mt-4">
+                        {PrimaryTechNologiesElems.slice(0,4)}
+                    </div>
+                    <div className="row text-center mt-4">
+                        {PrimaryTechNologiesElems.slice(4,8)}
+                    </div>
+                    <div className="row text-center mt-4">
+                        {PrimaryTechNologiesElems.slice(8,12)}
+                    </div>
+                    <div className="row text-center mt-4">
+                        {PrimaryTechNologiesElems.slice(12,16)}
+                    </div>
+                </div>
+                <h3 class="text-center mt-3" >Familiar Technologies</h3>
+                <div class="row text-center mt-4">
+                    <div class="offset-3 col-3"><i class="devicon-amazonwebservices-original colored"><span class="d-none d-lg-inline">AWS</span></i></div>
+                    <div class="col-3"><i class="devicon-java-plain colored"><span class="d-none d-lg-inline">Java</span></i></div>
+                </div>
+            </div>
+
         )
 
     }
 }
-
+{/* <h3 class="text-center" >Familiar Technologies</h3>
+                <div class="row text-center mt-4">
+                    <div class="offset-3 col-3"><i class="devicon-amazonwebservices-original colored"><span class="d-none d-lg-inline">AWS</span></i></div>
+                    <div class="col-3"><i class="devicon-java-plain colored"><span class="d-none d-lg-inline">Java</span></i></div>
+                </div> */}
 export default Technologies;
