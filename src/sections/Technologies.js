@@ -30,8 +30,7 @@ class Technologies extends React.Component{
             new technology("devicon-sequelize-plain colored","Sequelize"),
         ]
         let PrimaryTechNologiesElems = PrimaryTechNologiesData.map((item, index)=>{
-            //every fourth element we want to add a bit of styling except on the last one
-                return <div className="col-3"><i className={item.iconClass}><span className="d-none d-lg-inline">{item.name}</span></i></div>
+                return <div className="col-3" key={index}><i className={item.iconClass}><span className="d-none d-lg-inline">{item.name}</span></i></div>
         })
         return(
             <div>
