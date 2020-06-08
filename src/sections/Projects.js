@@ -58,12 +58,12 @@ class Projects extends React.Component {
 
         //const projectComponentArr = "woopee";
 
-        const projectComponentArr = projects.map(project=> {
+        const projectComponentArr = projects.map((project,index)=> {
             if(project.demoLink){
-                return <Project title={project.title} repoLink={project.repoLink} demoLink={project.demoLink} imgUrl={project.imgUrl} description={project.description}> ></Project>
+                return <Project title={project.title} repoLink={project.repoLink} demoLink={project.demoLink} imgUrl={project.imgUrl} description={project.description} key={index}></Project>
             }
 
-                return <Project title={project.title} repoLink={project.repoLink}  imgUrl={project.imgUrl} description={project.description}></Project> 
+                return <Project title={project.title} repoLink={project.repoLink}  imgUrl={project.imgUrl} description={project.description} key={index}></Project> 
 
             
         })
