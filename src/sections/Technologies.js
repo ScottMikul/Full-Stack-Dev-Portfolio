@@ -50,10 +50,10 @@ class Technologies extends React.Component{
                         {PrimaryTechNologiesElems.slice(12,16)}
                     </div>
                 </div>
-                <h3 class="text-center mt-3" >Familiar Technologies</h3>
-                <div class="row text-center mt-4">
-                    <div class="offset-3 col-3"><i class="devicon-amazonwebservices-original colored"><span class="d-none d-lg-inline">AWS</span></i></div>
-                    <div class="col-3"><i class="devicon-java-plain colored"><span class="d-none d-lg-inline">Java</span></i></div>
+                <h3 className="text-center mt-3" >Familiar Technologies</h3>
+                <div className="row text-center mt-4">
+                    <div className="offset-3 col-3"><i className="devicon-amazonwebservices-original colored"><span className="d-none d-lg-inline">AWS</span></i></div>
+                    <div className="col-3"><i className="devicon-java-plain colored"><span className="d-none d-lg-inline">Java</span></i></div>
                 </div>
             </div>
 
