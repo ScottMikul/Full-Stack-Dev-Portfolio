@@ -7,17 +7,23 @@ class About extends React.Component{
             <div className="small-side-margins">
                 <div className="add40vh" id="about"></div>
                 <h3 className="text-center"> About me</h3>
-                <p className="float-left">
-                    <img src={selfie} className="float-right rounded-circle" alt="portfolio-pic" height="180" width="215" />    
-                    Hi! I'm Scotty I'm a full stack developer from Atlanta Georgia. I'm a high energy, good attitude kind of guy who
-                    enjoys comedy. I love coding, learning new things and overcoming challenges.
-                    
-                </p>
-                
-                <p>
+                <div className="row">
+                    <div className="col-12 col-md-6 order-md-2 order-1"><img src={selfie} className="mx-auto rounded-circle  d-block d-md-flex" alt="portfolio-pic" height="180px" width="215px" />  </div> 
+                   <div className="col-12 col-md-6 order-md-1 order-2" >
+                     <p> Hi! I'm Scotty I'm a full stack developer from Atlanta Georgia. I'm a high energy, good attitude kind of guy who
+                    enjoys comedy. I love coding, learning new things and overcoming challenges.  </p>
+                    <p>
                     I have quite a bit of coding education and a bit of work experience too. I graduated Georgia Southern with a BS
                     in computer science, got a certificate with teamtreehouse in java web development, and more recently graduated from a Full Stack Development bootcamp with Georgia Tech. I had worked as a developer with Home Depot for about 3 years.
                 </p>
+                    </div> 
+                    
+                    
+                </div>
+
+              
+                
+ 
 
             
             <h3 className="text-center">Personal</h3>
@@ -28,8 +34,12 @@ class About extends React.Component{
             </p>
             
             <p>
-                I play quite a bit of video games. Currently my favorite is card game called Hearthstone, but I play quite a bit of others too. Recently I've grown pretty fond of my fitbit and I've been very focused on tracking calories and maintaining a healthy weight. I'm doing a bit of running. I've signed up for the bubble run and the blacklight run this year. However I think that the corona virus might be delaying all races. One of my main goals this year is to get employed with a great company with people I enjoy being with.
+                I play quite a bit of video games. I tend to like strategy games the most. Currently my favorite is card game called Hearthstone, but I play quite a bit of others too. 
             </p>
+
+            <p>I'm starting to like cooking because I like eating. I think everyone likes eating. The main problem with eating is that eventually you have to stop.</p>
+
+
 
             </div>
            
