@@ -70,7 +70,8 @@ class Projects extends React.Component {
             
         })
         return (
-            <div >
+            <div id="work" >
+                <h3 className="text-center">Recent Projects</h3>
                 {projectComponentArr}
             </div>
 
