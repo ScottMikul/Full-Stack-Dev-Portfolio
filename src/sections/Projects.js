@@ -20,11 +20,13 @@ class Projects extends React.Component {
               "Create any a customized and secure password.",
               "https://github.com/ScottMikul/PasswordGenerator",
               "https://scottmikul.github.io/PasswordGenerator"),
-            
-            new project("Employee Team Generator",
-             "EmployeeTeamGenerator.gif",
-              "A node command line app which allows users to create a page with a team of employees, managers and interns. I used iteration of object properties heavily. ",
-             " https://github.com/ScottMikul/Emplyee-Team-Generator" ),
+
+            new project("DataTrak",
+              "datatrak.png",
+              "allow community event organizers to track data and generate reports.",
+              "https://github.com/ScottMikul/24-project-3",
+              "https://salty-mountain-80189.herokuapp.com/"
+            ),
 
              new project("Weather Forecast",
              "WeatherDashBoard.png",
