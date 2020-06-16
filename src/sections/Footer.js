@@ -1,5 +1,6 @@
 
 import React from "react"
+import resume from "./ScottyMikul_Resume.pdf";
 
 
 class Footer extends React.Component{
@@ -11,7 +12,7 @@ class Footer extends React.Component{
                 <li className="col-2"><a href="https://www.linkedin.com/in/scottmikul"><i className="fab fa-linkedin"></i></a></li>
                 <li className="col-2"><a href="https://github.com/ScottMikul"><i className="fab fa-github-square"></i></a></li>
                 <li className="col-2"><a href="https://twitter.com/scottymikul1"><i className="fab fa-twitter"></i></a></li>
-                <li className="col-2"><a href="assets/files/ScottyMikulFullStackDev2020.pdf"><i className="fas fa-file-alt"></i></a>  </li>
+                <li className="col-2"><a href={resume}><i className="fas fa-file-alt"></i></a>  </li>
                 <li className="col-2"><a href="mailto:scottymikul@gmail.com"><i className="fas fa-envelope"></i></a></li>
             </ul>
             </div>
