@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ed06e02129211c8c1f2d0c0d622557a",
+    "revision": "a1eeadde36ea8d1bbacc0f7da5d925c2",
     "url": "/Full-Stack-Dev-Portfolio/index.html"
   },
   {
-    "revision": "0be62bb37f589d003d7d",
+    "revision": "99aef638b164d9f32cc4",
     "url": "/Full-Stack-Dev-Portfolio/static/css/main.9decd268.chunk.css"
   },
   {
-    "revision": "22d8842457b86d668a3e",
-    "url": "/Full-Stack-Dev-Portfolio/static/js/2.b33fe927.chunk.js"
+    "revision": "6f5faff99dfdd74e3814",
+    "url": "/Full-Stack-Dev-Portfolio/static/js/2.42e27630.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Full-Stack-Dev-Portfolio/static/js/2.b33fe927.chunk.js.LICENSE.txt"
+    "url": "/Full-Stack-Dev-Portfolio/static/js/2.42e27630.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0be62bb37f589d003d7d",
-    "url": "/Full-Stack-Dev-Portfolio/static/js/main.7ea28470.chunk.js"
+    "revision": "99aef638b164d9f32cc4",
+    "url": "/Full-Stack-Dev-Portfolio/static/js/main.17bc0f65.chunk.js"
   },
   {
     "revision": "e907b912d1a918a6817d",
@@ -32,12 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Full-Stack-Dev-Portfolio/static/media/PortfolioGenerator.0c1eb6d2.gif"
   },
   {
+    "revision": "a9dde98e2e72deaded7fc744322fafca",
+    "url": "/Full-Stack-Dev-Portfolio/static/media/ScottyMikul_Resume.a9dde98e.pdf"
+  },
+  {
     "revision": "58508382941d21348983d13d05da3c59",
     "url": "/Full-Stack-Dev-Portfolio/static/media/WeatherDashBoard.58508382.png"
   },
   {
     "revision": "8a7e2323c557ac0c985396da7b8a780c",
     "url": "/Full-Stack-Dev-Portfolio/static/media/WorkDayScheduler.8a7e2323.png"
+  },
+  {
+    "revision": "91471f6c8bf244d1a1417d243ae59f3f",
+    "url": "/Full-Stack-Dev-Portfolio/static/media/datatrak.91471f6c.png"
   },
   {
     "revision": "36bbb3d75c57c7ec80957a7b8a2f3f45",
