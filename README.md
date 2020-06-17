@@ -6,7 +6,7 @@ Here's a demo gif:
 ![Employee Team Generator](dev-portfolio.png)
 
 # Static page demo: 
-https://scottymikul.com
+http://scottymikul.com
 
  ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
