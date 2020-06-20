@@ -13,10 +13,18 @@ const images = importAll(require.context('./', false, /\.(png|jpe?g|svg|gif)$/))
 function Project(props){
     console.log(props.imgUrl);
     let demoLink = props.demoLink;
+    let loginDesc = props.login;
     if(props.demoLink){
         demoLink = 
         <div>
             Demo: <a href={props.demoLink} >{props.demoLink}</a>
+        </div>
+    }
+    if(props.login){
+        console.log("we have props.login :D :D :D D:D: D:D :D :DD :LKDJf;lakjdf;ljklsdfj");
+        loginDesc = <div>
+            <div>Login: {props.login.user}</div>
+            <div>Password: {props.login.password}</div>
         </div>
     }
     return (
@@ -34,6 +42,7 @@ function Project(props){
                 Git: <a href={props.repoLink}> {props.repoLink}</a>
             </div>
             {demoLink}
+            {loginDesc}
         </div>
     )
 }
