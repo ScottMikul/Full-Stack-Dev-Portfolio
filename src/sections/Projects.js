@@ -40,7 +40,7 @@ class Projects extends React.Component {
 
              new project("Stop and Shop",
                  "stop-and-shop.png",
-                 "node/sql/handlebars/express/bootstrap project that allows users to put items into a card then checkout using stripe client api",
+                 "Node/sql/handlebars/express/bootstrap project that allows users to put items into a card then checkout using stripe client api",
                  "https://github.com/ScottMikul/stopandshop",
                  "https://stop-and-shop-2020.herokuapp.com/",
                  {user:"arvin.mahmoudi@gmail.com", password:"123456"}
