@@ -26,20 +26,8 @@ class About extends React.Component{
  
 
             
-            <h3 className="text-center">Personal</h3>
-            
-            
-            <p>
-                I grew up in Marietta Georgia and went to a high school here too. I've been pretty interested in all kinds of sports and while I have a huge passion for video games, I've also been camping quite a bit growing up. I spent some time with the Boy Scouts and that's where I learned the most about camping. I even made it to Eagle Scout. 
-            </p>
-            
-            <p>
-                I play quite a bit of video games. I tend to like strategy games the most. Currently my favorite is card game called Hearthstone, but I play quite a bit of others too. 
-            </p>
 
-            <p>I'm starting to like cooking because I like eating. I think everyone likes eating. The main problem with eating is that eventually you have to stop.</p>
-
-
+            
 
             </div>
            
